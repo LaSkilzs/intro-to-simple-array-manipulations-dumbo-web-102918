@@ -11,9 +11,5 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  result = []
-  until result.count == 2
-    result << array.pop
-  end
-  result
+  array.pop(2)
 end
